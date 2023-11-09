@@ -4,6 +4,11 @@
   --ff-primary: "Hanken Grotesk", sans-serif;
   --ff-secondary: "Inter", sans-serif;
 
+  --white: hsl(0, 0%, 100%);
+  --blue: hsl(221, 100%, 96%);
+  --lavender: hsl(241, 100%, 89%);
+  --grayblue: hsl(224, 30%, 27%);
+
   --fw-400: 400;
   --fw-700: 700;
   --fw-800: 800;

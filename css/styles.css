@@ -13,4 +13,55 @@
   gap: 1rem;
   border-radius: 1rem;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  overflow: hidden;
+}
+/* Result */
+.result-card {
+  background-image: radial-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  border-radius: 1rem;
+  padding: 2rem;
+  text-align: center;
+
+  & h3 {
+    color: var(--lavender);
+    margin-bottom: 1rem;
+  }
+
+  & h2 {
+    margin: 1rem 0;
+    color: var(--white);
+    font-size: larger;
+  }
+
+  & p {
+    margin: 1rem 0;
+    color: var(--lavender);
+    font-size: small;
+  }
+}
+
+.score-bubble {
+  --bubble-size: 160px;
+  margin: auto;
+  width: var(--bubble-size);
+  height: var(--bubble-size);
+  line-height: var(--bubble-size);
+  border-radius: 50%;
+  background-image: linear-gradient(
+    hsla(256, 72%, 46%, 1),
+    hsla(241, 72%, 46%, 0)
+  );
+
+  background-image: linear-gradient(hsl(241, 81%, 54%), hsl(252, 100%, 67%));
+
+  & p {
+    font-weight: var(--fw-700);
+    font-size: 3.5rem;
+    color: white;
+  }
+}
+
+/* Summary */
+.summary-card {
+  padding: 1rem;
 }
