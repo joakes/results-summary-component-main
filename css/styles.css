@@ -51,7 +51,7 @@
     hsla(241, 72%, 46%, 0)
   );
 
-  background-image: linear-gradient(hsl(241, 81%, 54%), hsl(252, 100%, 67%));
+  background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
 
   & p {
     font-weight: var(--fw-700);
